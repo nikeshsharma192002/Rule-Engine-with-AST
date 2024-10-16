@@ -83,7 +83,7 @@ You can modify existing rules or add new ones by using the create_rule function 
 **Docker Support**: If required, you can containerize the application using Docker for easier deployment.
     To use Docker, create a Dockerfile and define the required environment setup.
     Example Dockerfile:
-    ```bash
+    
     FROM python:3.12
     WORKDIR /app
     COPY . .
